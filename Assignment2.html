@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Content & Form</title>
+</head>
+<body>
+
+<h1>Enhanced HTML5 Content & Mastering Forms</h1>
+<p>This page demonstrates lists, tables, media, and a complete HTML5 form with native validation.</p>
+
+<h2>Popular Web Development Technologies</h2>
+<ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript (ES6+)</li>
+    <li>React.js</li>
+    <li>Node.js</li>
+</ul>
+
+<h3>Steps to Build a Website</h3>
+<ol>
+    <li>Plan your content and layout.</li>
+    <li>Write HTML for structure.</li>
+    <li>Style with CSS.</li>
+    <li>Add interactivity with JavaScript.</li>
+    <li>Deploy online.</li>
+</ol>
+
+<h2>Comparison of HTML5 Input Types</h2>
+<table border="1" cellpadding="6" cellspacing="0" width="600">
+    <thead>
+        <tr>
+            <th>Input Type</th>
+            <th>Purpose</th>
+            <th>Example</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>text</td>
+            <td>Collect short text</td>
+            <td><input type="text" placeholder="Your name" size="40"></td>
+        </tr>
+        <tr>
+            <td>email</td>
+            <td>Collect valid email address</td>
+            <td><input type="email" placeholder="example@mail.com" size="40"></td>
+        </tr>
+        <tr>
+            <td>date</td>
+            <td>Select a date</td>
+            <td><input type="date" size="50"></td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>HTML5 Media</h2>
+<figure>
+    <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Code on a PC screen" width="600">
+    <figcaption>Image</figcaption>
+</figure>
+
+<audio controls>
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+</audio>
+<br><br>
+<video controls width="600">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+</video>
+
+<h2>Registration Form</h2>
+<form action="#" method="post">
+    <fieldset width="100">
+        <legend>Personal Information</legend>
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="Enter your full name" size="40"><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required placeholder="example@mail.com" size="40"><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+    </fieldset>
+
+    <br>
+
+    <fieldset width="100">
+        <legend>Account Details</legend>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required minlength="5" placeholder="Choose a username" size="40"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required minlength="8" placeholder="At least 8 characters" size="40"><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit number" size="40"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="">-- Select --</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    </fieldset>
+
+    <br>
+
+    <fieldset width="100">
+        <legend>Additional Information</legend>
+        <label for="bio">Short Bio:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="38" placeholder="Tell us about yourself"></textarea><br><br>
+        <label>
+            <input type="checkbox" name="subscribe" value="yes">
+            Subscribe to newsletter
+        </label>
+    </fieldset>
+
+    <br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<hr>
+<p>&copy; 2025 Abdoulie Balisa. All rights reserved.</p>
+
+</body>
+</html>
+
